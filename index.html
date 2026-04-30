@@ -9,30 +9,15 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
-    <link rel="stylesheet" href="index_responsive.css" />
-    <link rel="stylesheet" href="index_responsive _767px.css" />
-    <link rel="stylesheet" href="index_responsive _500px.css" />
+    <link rel="stylesheet" href="index_width_max~767px.css" />
+    <link rel="stylesheet" href="index_width_767~500px.css" />
+    <link rel="stylesheet" href="index_width_500~0px.css" />
+
     <script
       src="https://kit.fontawesome.com/47e25568ad.js"
       crossorigin="anonymous"
     ></script>
-    <!-- 
-    function openMenu(element) {
-      const menu = element.closest(".menu_switch");
-      menu.classList.add("menu_open");
-    }
-    function closeMenu(element) {
-      const menu = element.closest(".menu_switch");
-      menu.classList.remove("menu_open");
-    }
 
- const menus = document.getElementsByClassName("menu_open");
-      for (const menu of menus) {
-        menu.classList.remove("menu_open");
-      }
-      const menu = element.closest(".menu_switch");
-      menu.classList.add("menu_open");
-    -->
     <script>
       /**
        * メニューの開閉の切替
@@ -51,40 +36,30 @@
           menu.classList.add("menu_open");
         }
       }
-      /**
-       * タイトルの画像の変更
-       */
-      // function checkScreenSizeAndChangeTitleImg() {
-      //   const titleImg = document.querySelector(".title_img");
-      //   if (window.innerWidth < 500) {
-      //     if (titleImg.src !== "img/小さいタイトル.png") {
-      //       titleImg.src = "img/小さいタイトル.png";
-      //     }
-      //   } else {
-      //     if (titleImg.src !== "img/大きいタイトル.png") {
-      //       titleImg.src = "img/大きいタイトル.png";
-      //     }
-      //   }
-      //   checkScreenSizeAndChangeTitleImg();
-      //   window.addEventListener("resize", checkScreenSizeAndChangeTitleImg);
-      // }
     </script>
   </head>
   <body>
     <!--Part1 left flower-->
     <div class="left_flower">
       <div class="nav_mask"></div>
-      <img src="img/左側葉_ホームページ.png" alt="" />
+      <img src="img/左側葉_ホームページ.png" alt="左側に黄色の花と葉っぱ" />
     </div>
     <!--Part2 nav-->
     <nav>
       <div class="left_blue_ribbon"></div>
-      <div class="white_triangle"></div>
       <div class="title">
         <a href="index.html">
           <div class="title_img">
-            <img class="title_img_big" src="img/大きいタイトル.png" alt="" />
-            <img class="title_img_small" src="img/小さいタイトル.png" alt="" />
+            <img
+              class="title_img_big"
+              src="img/大きいタイトル.png"
+              alt="大きいタイトル"
+            />
+            <img
+              class="title_img_small"
+              src="img/小さいタイトル.png"
+              alt="小さいタイトル"
+            />
           </div>
           <div class="title_text">タピオカカフェ</div>
         </a>
@@ -143,24 +118,21 @@
     </nav>
     <!--Part3 main-->
     <main class="main_wraper">
-      <!-- <div class="top_mask">
-        <div class="blue_box"></div>
-        <div class="white_box"></div>
-      </div> -->
-
       <div class="right_blue_ribbon"></div>
 
       <section class="function_button section_wrapper">
         <div class="picture_above detail_wrapper">
           <a href=""><img src="img/クーポン.png" alt="100円offクーポン" /></a>
-          <a href=""><img src="img/スタンプカード.png" alt="" /></a>
+          <a href=""
+            ><img src="img/スタンプカード.png" alt="スタンプカード"
+          /></a>
         </div>
         <div class="picture_below detail_wrapper">
           <a href="paper_and_flower_select.html"
-            ><img src="img/おすすめ.png" alt=""
-          /></a>
+            ><img src="img/おすすめ.png" alt="おすすめ商品" /> /></a
+          >
           <a href="paper_and_flower_menu.html"
-            ><img src="img/注文する.png" alt=""
+            ><img src="img/注文する.png" alt="注文入口"
           /></a>
         </div>
       </section>
@@ -174,8 +146,11 @@
             <li class="tea">ティー</li>
           </ul>
           <div class="picture_show">
-            <img src="img/ダンス人、パイナップル、柚子.png" alt="" />
-            <img src="img/パイナップルティー.png" alt="" />
+            <img
+              src="img/ダンス人、パイナップル、柚子.png"
+              alt="ダンス人、パイナップル、柚子が並んでいてダンスしている"
+            />
+            <img src="img/パイナップルティー.png" alt="パイナップルティー" />
           </div>
         </div>
         <div class="news_detail detail_wrapper">
@@ -187,8 +162,14 @@
             <li class="tea">ティー</li>
           </ul>
           <div class="picture_show">
-            <img src="img/いちごがミルクに落ちる.png" alt="" />
-            <img src="img/ピンクレース、いいごミルク.png" alt="" />
+            <img
+              src="img/いちごがミルクに落ちる.png"
+              alt="いちごがミルクに落ちている"
+            />
+            <img
+              src="img/ピンクレース、いちごミルク.png"
+              alt="ピンクレース背景の前に、いちごミルクがある"
+            />
           </div>
         </div>
       </section>
@@ -201,7 +182,7 @@
         </div>
       </footer>
       <div class="right_flower">
-        <img src="img/右側葉.png" alt="" />
+        <img src="img/右側葉.png" alt="右側に黄色の花と葉っぱ" />
       </div>
     </main>
   </body>
